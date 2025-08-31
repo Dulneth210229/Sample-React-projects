@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <Accordion />
-      <h3>Sample Code</h3>
     </>
   );
 }

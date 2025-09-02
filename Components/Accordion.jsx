@@ -18,7 +18,7 @@ function Accordion() {
                 onClick={() => handleSingleSelection(dataItem.id)}
                 className="title"
               >
-                <h2>{dataItem.question}</h2>
+                <h3>{dataItem.question}</h3>
                 <span>+</span>
               </div>
               {selected === dataItem.id ? <div>{dataItem.answer}</div> : null}
